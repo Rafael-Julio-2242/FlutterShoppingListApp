@@ -26,7 +26,7 @@ class _NewItemScreen extends State<NewItemScreen> {
       setState(() {
         _isSending = true;
       });
-      final url = Uri.https('flutter-prep-dd939-default-rtdb.firebaseio.com',
+      final url = Uri.https('---',
           'shopping-list.json');
 
       final response = await http.post(
